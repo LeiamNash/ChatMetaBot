@@ -10,6 +10,9 @@ a builtin file folder package for creating and managing Facebook Messenger bots 
 
 To get started with ChatMetaBot, first you need to download this repository, second unzip it and paste the folder on your main project
 
+
+- download [chatmetabot.zip](https://github.com/LeiamNash/ChatMetaBot/archive/refs/heads/main.zip)
+
 ---
 
 ## Usage
