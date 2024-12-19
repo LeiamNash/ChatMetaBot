@@ -1,18 +1,14 @@
 <p align="center">
 ChatMetaBot
     </p>
-a Node.js package for creating and managing Facebook Messenger bots with ease. It provides a seamless integration with the Messenger platform, allowing developers to build dynamic and interactive chatbots effortlessly.
+a builtin file folder package for creating and managing Facebook Messenger bots with ease. It provides a seamless integration with the Messenger platform, allowing developers to build dynamic and interactive chatbots effortlessly.
 
 
 ---
 
 ## Installation
 
-To get started with ChatMetaBot, you need to install the package using npm:
-
-```bash
-npm install chatmetabot
-```
+To get started with ChatMetaBot, first you need to download this repository, second unzip it and paste the folder on your main project
 
 ---
 
@@ -22,7 +18,8 @@ Below is a simple example of how to use **ChatMetaBot** to listen to incoming me
 
 ```javascript
 const fs = require("fs");
-const login = require("chatmetabot");
+const path = require("path");
+const login = require(path.join(__dirname, "chatmetabot", "index.js"));
 
 login({
     appState: JSON.parse(fs.readFileSync('appstate.json', 'utf8'))
